@@ -7,7 +7,7 @@ development:
     database: pin_development
     pool: 5
     username: lotterymac
-    password: zhongwen
+    password: 
 
 test:
   adapter: postgresql
@@ -15,4 +15,4 @@ test:
   database: pin_test
   pool: 5
   username: lotterymac
-  password: zhongwen
+  password: 
