@@ -11,12 +11,12 @@ ECHO = $(ECHO1:0=@echo)
 #### Start of system configuration section. ####
 
 srcdir = .
-topdir = /Users/lotterymac/.rbenv/versions/2.1.2/include/ruby-2.1.0
+topdir = /Users/lotterymac/.rbenv/versions/2.1.5/include/ruby-2.1.0
 hdrdir = $(topdir)
-arch_hdrdir = /Users/lotterymac/.rbenv/versions/2.1.2/include/ruby-2.1.0/x86_64-darwin15.0
+arch_hdrdir = /Users/lotterymac/.rbenv/versions/2.1.5/include/ruby-2.1.0/x86_64-darwin15.0
 PATH_SEPARATOR = :
 VPATH = $(srcdir):$(arch_hdrdir)/ruby:$(hdrdir)/ruby
-prefix = $(DESTDIR)/Users/lotterymac/.rbenv/versions/2.1.2
+prefix = $(DESTDIR)/Users/lotterymac/.rbenv/versions/2.1.5
 rubysitearchprefix = $(rubylibprefix)/$(sitearch)
 rubyarchprefix = $(rubylibprefix)/$(arch)
 rubylibprefix = $(libdir)/$(RUBY_BASE_NAME)
@@ -30,8 +30,8 @@ rubyhdrdir = $(includedir)/$(RUBY_VERSION_NAME)
 vendorarchdir = $(vendorlibdir)/$(sitearch)
 vendorlibdir = $(vendordir)/$(ruby_version)
 vendordir = $(rubylibprefix)/vendor_ruby
-sitearchdir = $(DESTDIR)./.gem.20151018-5484-1any11o
-sitelibdir = $(DESTDIR)./.gem.20151018-5484-1any11o
+sitearchdir = $(DESTDIR)./.gem.20151023-23522-1qaxn3g
+sitelibdir = $(DESTDIR)./.gem.20151023-23522-1qaxn3g
 sitedir = $(rubylibprefix)/site_ruby
 rubyarchdir = $(rubylibdir)/$(arch)
 rubylibdir = $(rubylibprefix)/$(ruby_version)
@@ -81,9 +81,9 @@ CCDLFLAGS = -fno-common
 CFLAGS   = $(CCDLFLAGS)  -O3 -Wno-error=shorten-64-to-32  -pipe $(ARCH_FLAG)
 INCFLAGS = -I. -I$(arch_hdrdir) -I$(hdrdir)/ruby/backward -I$(hdrdir) -I$(srcdir)
 DEFS     = 
-CPPFLAGS =  -I/Users/lotterymac/.rbenv/versions/2.1.2/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT $(DEFS) $(cppflags)
+CPPFLAGS =  -I/Users/lotterymac/.rbenv/versions/2.1.5/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT $(DEFS) $(cppflags)
 CXXFLAGS = $(CCDLFLAGS) $(cxxflags) $(ARCH_FLAG)
-ldflags  = -L. -L/Users/lotterymac/.rbenv/versions/2.1.2/lib  -fstack-protector
+ldflags  = -L. -L/Users/lotterymac/.rbenv/versions/2.1.5/lib  -fstack-protector -L/usr/local/lib
 dldflags = -Wl,-undefined,dynamic_lookup -Wl,-multiply_defined,suppress 
 ARCH_FLAG = 
 DLDFLAGS = $(ldflags) $(dldflags) $(ARCH_FLAG)

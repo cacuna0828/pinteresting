@@ -1,4 +1,4 @@
-/Users/lotterymac/.rbenv/versions/2.1.2/bin/ruby extconf.rb
+/Users/lotterymac/.rbenv/versions/2.1.5/bin/ruby -r ./siteconf20151023-23522-lq8nr0.rb extconf.rb
 creating Makefile
 
 make "DESTDIR=" clean
@@ -12,5 +12,5 @@ compiling wrapper.c
 linking shared-object bcrypt_ext.bundle
 
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 bcrypt_ext.bundle ./.gem.20151018-5484-1any11o
+/usr/bin/install -c -m 0755 bcrypt_ext.bundle ./.gem.20151023-23522-1qaxn3g
 installing default bcrypt_ext libraries

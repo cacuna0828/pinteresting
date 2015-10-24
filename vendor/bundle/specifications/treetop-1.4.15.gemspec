@@ -1,22 +1,25 @@
 # -*- encoding: utf-8 -*-
+# stub: treetop 1.4.15 ruby lib
 
 Gem::Specification.new do |s|
   s.name = "treetop"
   s.version = "1.4.15"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
+  s.require_paths = ["lib"]
   s.authors = ["Nathan Sobo", "Clifford Heath"]
   s.autorequire = "treetop"
   s.date = "2013-08-17"
   s.email = "cliffordheath@gmail.com"
   s.executables = ["tt"]
   s.extra_rdoc_files = ["LICENSE", "README.md"]
-  s.files = ["bin/tt", "LICENSE", "README.md"]
+  s.files = ["LICENSE", "README.md", "bin/tt"]
   s.homepage = "https://github.com/cjheath/treetop"
   s.licenses = ["MIT"]
-  s.require_paths = ["lib"]
-  s.rubygems_version = "2.0.14"
+  s.rubygems_version = "2.4.8"
   s.summary = "A Ruby-based text parsing and interpretation DSL"
+
+  s.installed_by_version = "2.4.8" if s.respond_to? :installed_by_version
 
   if s.respond_to? :specification_version then
     s.specification_version = 3

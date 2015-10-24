@@ -1,20 +1,23 @@
 # -*- encoding: utf-8 -*-
+# stub: jquery-rails 3.1.4 ruby lib
 
 Gem::Specification.new do |s|
   s.name = "jquery-rails"
   s.version = "3.1.4"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 1.3.6") if s.respond_to? :required_rubygems_version=
+  s.require_paths = ["lib"]
   s.authors = ["Andr\u{e9} Arko"]
   s.date = "2015-09-01"
   s.description = "This gem provides jQuery and the jQuery-ujs driver for your Rails 3+ application."
   s.email = ["andre@arko.net"]
   s.homepage = "http://rubygems.org/gems/jquery-rails"
   s.licenses = ["MIT"]
-  s.require_paths = ["lib"]
   s.rubyforge_project = "jquery-rails"
-  s.rubygems_version = "2.0.14"
+  s.rubygems_version = "2.4.8"
   s.summary = "Use jQuery with Rails 3+"
+
+  s.installed_by_version = "2.4.8" if s.respond_to? :installed_by_version
 
   if s.respond_to? :specification_version then
     s.specification_version = 4

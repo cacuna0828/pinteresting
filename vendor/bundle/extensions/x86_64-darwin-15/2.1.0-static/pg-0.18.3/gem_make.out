@@ -1,4 +1,4 @@
-/Users/lotterymac/.rbenv/versions/2.1.5/bin/ruby -r ./siteconf20151020-59127-8txjl2.rb extconf.rb
+/Users/lotterymac/.rbenv/versions/2.1.5/bin/ruby -r ./siteconf20151023-23522-j0fkxo.rb extconf.rb
 checking for pg_config... yes
 Using config values from /usr/local/bin/pg_config
 checking for libpq-fe.h... yes
@@ -69,5 +69,5 @@ compiling util.c
 linking shared-object pg_ext.bundle
 
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 pg_ext.bundle ./.gem.20151020-59127-d3abh8
+/usr/bin/install -c -m 0755 pg_ext.bundle ./.gem.20151023-23522-1cpfllz
 installing default pg_ext libraries
