@@ -13,6 +13,7 @@ gem 'devise'
 gem 'pg'
 gem 'rails_12factor'
 gem 'paperclip', github: 'thoughtbot/paperclip'
+gem 'aws-sdk', '< 2.0'
 
 group :doc do
   gem 'sdoc', require: false
