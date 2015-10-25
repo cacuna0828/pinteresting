@@ -10,8 +10,10 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 gem 'bootstrap-sass'
 gem 'devise'
-  gem 'pg'
-  gem 'rails_12factor'
+gem 'pg'
+gem 'rails_12factor'
+gem 'paperclip', github: 'thoughtbot/paperclip'
+
 group :doc do
   gem 'sdoc', require: false
 end
